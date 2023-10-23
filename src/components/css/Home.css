@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .home-container {
   background-image: url("/images/vegas.jpg");
   background-size: cover;
@@ -16,6 +17,22 @@ h1 {
   color: white;
   margin-top: 140px;
   font-size: 3em;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 button {
@@ -32,4 +49,5 @@ button {
 
 button:hover {
   color: pink;
+  animation: bounce 0.6s infinite;
 }
