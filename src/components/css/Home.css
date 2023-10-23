@@ -10,3 +10,26 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+h1 {
+  font-family: "Train One", sans-serif;
+  color: white;
+  margin-top: 140px;
+  font-size: 3em;
+}
+
+button {
+  font-family: cursive;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 2px solid pink;
+  font-size: 14pt;
+  margin-top: 20px;
+}
+
+button:hover {
+  color: pink;
+}
