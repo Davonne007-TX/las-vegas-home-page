@@ -1,0 +1,16 @@
+/*My Links Component*/
+.myLinks,
+a {
+  display: flex;
+  justify-content: flex-end;
+  color: pink;
+  padding: 20px;
+  font-family: "Train One", sans-serif;
+  font-size: 18pt;
+}
+
+.myLinks,
+a:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
