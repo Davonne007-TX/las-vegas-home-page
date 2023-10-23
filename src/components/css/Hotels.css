@@ -1,0 +1,17 @@
+/*hotels component*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.hotels {
+  background-image: url("/images/hotel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.find {
+  margin-top: 10px;
+  color: pink;
+}

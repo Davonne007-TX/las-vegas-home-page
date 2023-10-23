@@ -1,11 +1,14 @@
 import React from "react";
 import MyLinks from "./MyLinks";
+import "./css/Hotels.css";
 
 export default function Hotels() {
   return (
     <>
-      <MyLinks />
-      <div>Hotels</div>
+      <div className="hotels">
+        <MyLinks />
+        <h1 className="find">Find Your Dream Hotel</h1>
+      </div>
     </>
   );
 }
