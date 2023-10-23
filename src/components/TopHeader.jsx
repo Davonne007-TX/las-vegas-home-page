@@ -9,6 +9,8 @@ import Explore from "./Explore";
 export default function TopHeader() {
   return (
     <>
+      <Link to="/">Las Vegas</Link>
+      <br />
       <Link to="/hotels">Hotels</Link>
       <Link to="/events">Events</Link>
       <Link to="/explore">Explore</Link>
