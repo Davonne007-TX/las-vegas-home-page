@@ -9,13 +9,6 @@ import Explore from "./Explore";
 export default function TopHeader() {
   return (
     <>
-      <Link to="/">Las Vegas</Link>
-      <br />
-      <Link to="/hotels">Hotels</Link>
-      <Link to="/events">Events</Link>
-      <Link to="/explore">Explore</Link>
-      <Link to="/book">Book </Link>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hotels" element={<Hotels />} />

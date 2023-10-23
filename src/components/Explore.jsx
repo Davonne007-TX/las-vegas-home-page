@@ -1,5 +1,11 @@
 import React from "react";
+import MyLinks from "./MyLinks";
 
 export default function Explore() {
-  return <div>Explore</div>;
+  return (
+    <>
+      <MyLinks />
+      <div>Explore</div>
+    </>
+  );
 }

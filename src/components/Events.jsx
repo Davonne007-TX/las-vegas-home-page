@@ -1,5 +1,11 @@
 import React from "react";
+import MyLinks from "./MyLinks";
 
 export default function Events() {
-  return <div>Events</div>;
+  return (
+    <>
+      <MyLinks />
+      <div>Events</div>
+    </>
+  );
 }
