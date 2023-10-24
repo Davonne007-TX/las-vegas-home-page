@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .hotels {
   background-image: url("/images/hotel.jpg");
   background-size: cover;
@@ -13,5 +14,4 @@
 
 .find {
   margin-top: 10px;
-  color: pink;
 }
