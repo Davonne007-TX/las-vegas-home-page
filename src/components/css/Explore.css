@@ -2,5 +2,26 @@
   background-image: url("images/vegas.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
+}
+
+.vegas-search {
+  padding: 10px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 12px;
+  outline: none;
+  border: 2px solid pink;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14ptd;
+}
+
+.search-vegas-btn {
+  padding: 5px;
+  border-radius: 12px;
+  background-color: pink;
+  font-family: cursive;
+  border: 2px solid white;
+  font-size: 12pt;
 }

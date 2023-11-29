@@ -1,11 +1,16 @@
-import React from "react";
 import MyLinks from "./MyLinks";
-
+import "./css/Book.css";
 export default function Book() {
   return (
     <>
-      <MyLinks />
-      <div>Book</div>
+      <div className="fly">
+        <MyLinks />
+        <div className="book-container">
+          <quote className="doubt">"When in doubt, head to Vegas!"</quote>
+          <br />
+          <button className="bookToday">Book Today</button>
+        </div>
+      </div>
     </>
   );
 }

@@ -1,0 +1,31 @@
+.fly {
+  background-image: url("images/plane.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.book-container {
+  margin-top: 140px;
+}
+
+.doubt {
+  font-family: "Train One", sans-serif;
+  font-size: 3em;
+  color: white;
+  padding: 15px;
+}
+
+.bookToday {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18pt;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.bookToday:hover {
+  color: lightblue;
+}

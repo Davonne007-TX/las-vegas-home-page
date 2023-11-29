@@ -7,7 +7,10 @@ export default function Explore() {
     <>
       <div className="lasVegas">
         <MyLinks />
+
         <h1>Explore Sin City</h1>
+        <input type="search" className="vegas-search" />
+        <button className="search-vegas-btn">Search</button>
       </div>
     </>
   );
