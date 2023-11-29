@@ -16,13 +16,14 @@ export default function Home() {
   return (
     <div className="home-container">
       <MyLinks />
-      <h1>
-        Plan Your Travel
-        <div onMouseOver={changeToday} id="change" onMouseOut={backToToday}>
-          Today!
-        </div>
-      </h1>
-      <button className="started">Get Started!</button>
+      <div className="heading-container">
+        <h1 className="travel">
+          Plan Your Travel
+          <div onMouseOver={changeToday} id="change" onMouseOut={backToToday}>
+            Today!
+          </div>
+        </h1>
+      </div>
     </div>
   );
 }
