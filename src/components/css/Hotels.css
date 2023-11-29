@@ -13,5 +13,27 @@
 }
 
 .find {
-  margin-top: 10px;
+  float: left;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+/*search bar and button*/
+.search {
+  width: 300px;
+}
+
+.explore {
+  width: 300px;
+}
+
+.explore:hover {
+  color: #57d6f2;
 }

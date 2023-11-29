@@ -22,7 +22,7 @@ export default function Home() {
           Today!
         </div>
       </h1>
-      <button>Get Started!</button>
+      <button className="started">Get Started!</button>
     </div>
   );
 }

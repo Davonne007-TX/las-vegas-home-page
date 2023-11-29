@@ -12,14 +12,7 @@
   height: 100vh;
 }
 
-h1 {
-  font-family: "Train One", sans-serif;
-  color: white;
-  margin-top: 140px;
-  font-size: 3em;
-}
-
-button {
+.started {
   font-family: cursive;
   padding: 10px;
   border-radius: 20px;
@@ -31,6 +24,6 @@ button {
   margin-top: 20px;
 }
 
-button:hover {
+.started:hover {
   color: pink;
 }

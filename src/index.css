@@ -6,3 +6,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+h1 {
+  font-family: "Train One", sans-serif;
+  color: white;
+  margin-top: 140px;
+  font-size: 3em;
+}

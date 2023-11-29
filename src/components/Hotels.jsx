@@ -7,8 +7,11 @@ export default function Hotels() {
     <>
       <div className="hotels">
         <MyLinks />
-        <h1 className="find">Find Your Dream Hotel</h1>
-        <button type="button">Explore Hotels</button>
+        <div className="heading-container">
+          <h1 className="find">Find Your Dream Hotel</h1>
+          <input type="search" className="search" />
+          <button className="explore">Search</button>
+        </div>
       </div>
     </>
   );
