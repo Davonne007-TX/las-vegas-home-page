@@ -1,13 +1,17 @@
-import React from "react";
 import MyLinks from "./MyLinks";
 import "./css/Events.css";
 
 export default function Events() {
   return (
     <>
-      <MyLinks />
       <div className="dealer">
-        <h1>Blackjack</h1>
+        <MyLinks />
+
+        <h1>
+          Blackjack Tournament
+          <br />
+          <div>December 13, 2023</div>
+        </h1>
       </div>
     </>
   );
