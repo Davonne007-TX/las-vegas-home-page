@@ -16,8 +16,9 @@ export default function Home() {
   return (
     <div className="home-container">
       <MyLinks />
-      <div className="heading-container">
-        <h1 className="travel">
+
+      <div>
+        <h1 className="heading-container">
           Plan Your Travel
           <div onMouseOver={changeToday} id="change" onMouseOut={backToToday}>
             Today!

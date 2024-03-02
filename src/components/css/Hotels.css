@@ -13,35 +13,8 @@
 }
 
 .find {
-  float: left;
-}
-
-.heading-container {
-  display: flex;
-  justify-content: left;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-top: -100px;
-  margin-left: 60px;
-}
-
-/*search bar and button*/
-.search,
-.explore {
-  width: 250px;
-  padding: 8px;
-  border-radius: 10px;
-  margin: 5px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 14pt;
-  outline: none;
-}
-
-.explore {
-  background-color: #57d6f2;
-}
-
-.explore:hover {
+  font-family: "Train One", sans-serif;
+  font-size: 3em;
+  margin-top: 20px;
   color: white;
 }

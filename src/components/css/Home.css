@@ -5,19 +5,11 @@
 }
 
 .home-container {
-  background-image: url("/images/welcome.jpg");
+  background-image: url("/images/vegasSkyline.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-}
-
-.travel {
-  background-color: white;
-  color: black;
-  padding: 25px;
-  border-radius: 10px;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .started {
@@ -34,4 +26,8 @@
 
 .started:hover {
   color: pink;
+}
+
+#change {
+  cursor: pointer;
 }

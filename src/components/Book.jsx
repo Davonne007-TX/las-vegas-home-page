@@ -5,7 +5,7 @@ export default function Book() {
     <>
       <div className="fly">
         <MyLinks />
-        <div className="book-container">
+        <div className="book-container">l
           <quote className="doubt">"When in doubt, head to Vegas!"</quote>
           <br />
           <button className="bookToday">Book Today</button>
