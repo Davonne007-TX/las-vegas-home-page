@@ -12,12 +12,14 @@
 .doubt {
   font-family: "Train One", sans-serif;
   font-size: 3em;
-  color: white;
+  color: black;
   padding: 15px;
 }
 
 .bookToday {
   background-color: white;
+
+  font-weight: bold;
   padding: 10px;
   border-radius: 8px;
   font-family: Georgia, "Times New Roman", Times, serif;
